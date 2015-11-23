@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/root/SocketDemos/build/CMakeFiles/2.8.11/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/root/github/demos/SocketDemos/build/CMakeFiles/2.8.11/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/root/SocketDemos/build/CMakeFiles/2.8.11/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/root/github/demos/SocketDemos/build/CMakeFiles/2.8.11/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /root/SocketDemos/build/CMakeFiles/CMakeTmp
+Change Dir: /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec1301308238/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1301308238.dir/build.make CMakeFiles/cmTryCompileExec1301308238.dir/build
-gmake[1]: Entering directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1301308238.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1301308238.dir/testCCompiler.c.o   -c /root/SocketDemos/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec1301308238
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1301308238.dir/link.txt --verbose=1
-/usr/bin/cc         CMakeFiles/cmTryCompileExec1301308238.dir/testCCompiler.c.o  -o cmTryCompileExec1301308238 -rdynamic 
-gmake[1]: Leaving directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/gmake "cmTryCompileExec194802619/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec194802619.dir/build.make CMakeFiles/cmTryCompileExec194802619.dir/build
+gmake[1]: Entering directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec194802619.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec194802619.dir/testCCompiler.c.o   -c /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec194802619
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec194802619.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec194802619.dir/testCCompiler.c.o  -o cmTryCompileExec194802619 -rdynamic 
+gmake[1]: Leaving directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /root/SocketDemos/build/CMakeFiles/CMakeTmp
+Change Dir: /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec1937102795/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1937102795.dir/build.make CMakeFiles/cmTryCompileExec1937102795.dir/build
-gmake[1]: Entering directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec1937102795
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1937102795.dir/link.txt --verbose=1
-/usr/bin/cc       -v CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1937102795 -rdynamic  
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2457569329/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2457569329.dir/build.make CMakeFiles/cmTryCompileExec2457569329.dir/build
+gmake[1]: Entering directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2457569329
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2457569329.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2457569329 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1937102795' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1937102795 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2457569329' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2457569329 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /root/SocketDemos/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1937102795/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1937102795.dir/build.make CMakeFiles/cmTryCompileExec1937102795.dir/build]
-  ignore line: [gmake[1]: Entering directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec1937102795]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1937102795.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1937102795 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2457569329/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2457569329.dir/build.make CMakeFiles/cmTryCompileExec2457569329.dir/build]
+  ignore line: [gmake[1]: Entering directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2457569329]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2457569329.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2457569329 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1937102795' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1937102795 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2457569329' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2457569329 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -101,7 +101,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1937102795] ==> ignore
+    arg [cmTryCompileExec2457569329] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../..]
-    arg [CMakeFiles/cmTryCompileExec1937102795.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2457569329.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -137,32 +137,32 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /root/SocketDemos/build/CMakeFiles/CMakeTmp
+Change Dir: /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec3623393178/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3623393178.dir/build.make CMakeFiles/cmTryCompileExec3623393178.dir/build
-gmake[1]: Entering directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3623393178.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3623393178.dir/testCXXCompiler.cxx.o -c /root/SocketDemos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec3623393178
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3623393178.dir/link.txt --verbose=1
-/usr/bin/c++          CMakeFiles/cmTryCompileExec3623393178.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3623393178 -rdynamic 
-gmake[1]: Leaving directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3136207257/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3136207257.dir/build.make CMakeFiles/cmTryCompileExec3136207257.dir/build
+gmake[1]: Entering directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3136207257.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3136207257.dir/testCXXCompiler.cxx.o -c /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3136207257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3136207257.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec3136207257.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3136207257 -rdynamic 
+gmake[1]: Leaving directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /root/SocketDemos/build/CMakeFiles/CMakeTmp
+Change Dir: /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec1800337655/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1800337655.dir/build.make CMakeFiles/cmTryCompileExec1800337655.dir/build
-gmake[1]: Entering directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1800337655
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1800337655.dir/link.txt --verbose=1
-/usr/bin/c++        -v CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1800337655 -rdynamic  
+Run Build Command:/usr/bin/gmake "cmTryCompileExec329833729/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec329833729.dir/build.make CMakeFiles/cmTryCompileExec329833729.dir/build
+gmake[1]: Entering directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec329833729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec329833729.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec329833729 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/lto-wrapper
@@ -172,24 +172,24 @@ Thread model: posix
 gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1800337655' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1800337655 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec329833729' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec329833729 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /root/SocketDemos/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1800337655/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1800337655.dir/build.make CMakeFiles/cmTryCompileExec1800337655.dir/build]
-  ignore line: [gmake[1]: Entering directory `/root/SocketDemos/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1800337655]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1800337655.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1800337655 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec329833729/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec329833729.dir/build.make CMakeFiles/cmTryCompileExec329833729.dir/build]
+  ignore line: [gmake[1]: Entering directory `/root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec329833729]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec329833729.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec329833729 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/lto-wrapper]
@@ -199,8 +199,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.3/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1800337655' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1800337655 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec329833729' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec329833729 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../.. CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -212,7 +212,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1800337655] ==> ignore
+    arg [cmTryCompileExec329833729] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o] ==> ignore
@@ -221,7 +221,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.3/../../..]
-    arg [CMakeFiles/cmTryCompileExec1800337655.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec329833729.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]

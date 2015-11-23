@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/SocketDemos/src/simple/simpleClient.c" "/root/SocketDemos/build/src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.o"
+  "/root/github/demos/SocketDemos/src/simple/simpleClient.c" "/root/github/demos/SocketDemos/build/src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

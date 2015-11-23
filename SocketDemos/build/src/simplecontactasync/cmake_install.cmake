@@ -1,4 +1,4 @@
-# Install script for directory: /root/SocketDemos/src/simplecontactasync
+# Install script for directory: /root/github/demos/SocketDemos/src/simplecontactasync
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

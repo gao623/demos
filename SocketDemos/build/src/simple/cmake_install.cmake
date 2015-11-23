@@ -1,4 +1,4 @@
-# Install script for directory: /root/SocketDemos/src/simple
+# Install script for directory: /root/github/demos/SocketDemos/src/simple
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

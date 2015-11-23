@@ -1,4 +1,4 @@
-# Install script for directory: /root/SocketDemos/src/simplecontactnonblock
+# Install script for directory: /root/github/demos/SocketDemos/src/simplecontactnonblock
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

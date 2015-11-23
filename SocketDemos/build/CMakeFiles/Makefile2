@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/SocketDemos
+CMAKE_SOURCE_DIR = /root/github/demos/SocketDemos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/SocketDemos/build
+CMAKE_BINARY_DIR = /root/github/demos/SocketDemos/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -103,7 +103,7 @@ src/simple/preinstall:
 src/simple/CMakeFiles/simpleClient.dir/all:
 	$(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/depend
 	$(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  1
 	@echo "Built target simpleClient"
 .PHONY : src/simple/CMakeFiles/simpleClient.dir/all
 
@@ -113,9 +113,9 @@ all: src/simple/CMakeFiles/simpleClient.dir/all
 
 # Build rule for subdir invocation for target.
 src/simple/CMakeFiles/simpleClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simple/CMakeFiles/simpleClient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simple/CMakeFiles/simpleClient.dir/rule
 
 # Convenience name for target.
@@ -138,7 +138,7 @@ clean: src/simple/CMakeFiles/simpleClient.dir/clean
 src/simple/CMakeFiles/simpleServer.dir/all:
 	$(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/depend
 	$(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  8
 	@echo "Built target simpleServer"
 .PHONY : src/simple/CMakeFiles/simpleServer.dir/all
 
@@ -148,9 +148,9 @@ all: src/simple/CMakeFiles/simpleServer.dir/all
 
 # Build rule for subdir invocation for target.
 src/simple/CMakeFiles/simpleServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simple/CMakeFiles/simpleServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simple/CMakeFiles/simpleServer.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ src/simplecontact/preinstall:
 src/simplecontact/CMakeFiles/simpleContactClient.dir/all:
 	$(MAKE) -f src/simplecontact/CMakeFiles/simpleContactClient.dir/build.make src/simplecontact/CMakeFiles/simpleContactClient.dir/depend
 	$(MAKE) -f src/simplecontact/CMakeFiles/simpleContactClient.dir/build.make src/simplecontact/CMakeFiles/simpleContactClient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  4
 	@echo "Built target simpleContactClient"
 .PHONY : src/simplecontact/CMakeFiles/simpleContactClient.dir/all
 
@@ -200,9 +200,9 @@ all: src/simplecontact/CMakeFiles/simpleContactClient.dir/all
 
 # Build rule for subdir invocation for target.
 src/simplecontact/CMakeFiles/simpleContactClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simplecontact/CMakeFiles/simpleContactClient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simplecontact/CMakeFiles/simpleContactClient.dir/rule
 
 # Convenience name for target.
@@ -225,7 +225,7 @@ clean: src/simplecontact/CMakeFiles/simpleContactClient.dir/clean
 src/simplecontact/CMakeFiles/simpleContactServer.dir/all:
 	$(MAKE) -f src/simplecontact/CMakeFiles/simpleContactServer.dir/build.make src/simplecontact/CMakeFiles/simpleContactServer.dir/depend
 	$(MAKE) -f src/simplecontact/CMakeFiles/simpleContactServer.dir/build.make src/simplecontact/CMakeFiles/simpleContactServer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  7
 	@echo "Built target simpleContactServer"
 .PHONY : src/simplecontact/CMakeFiles/simpleContactServer.dir/all
 
@@ -235,9 +235,9 @@ all: src/simplecontact/CMakeFiles/simpleContactServer.dir/all
 
 # Build rule for subdir invocation for target.
 src/simplecontact/CMakeFiles/simpleContactServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simplecontact/CMakeFiles/simpleContactServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simplecontact/CMakeFiles/simpleContactServer.dir/rule
 
 # Convenience name for target.
@@ -277,7 +277,7 @@ src/simplecontactnonblock/preinstall:
 src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/all:
 	$(MAKE) -f src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/build.make src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/depend
 	$(MAKE) -f src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/build.make src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  5
 	@echo "Built target simpleContactNonblockClient"
 .PHONY : src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/all
 
@@ -287,9 +287,9 @@ all: src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/all
 
 # Build rule for subdir invocation for target.
 src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/rule
 
 # Convenience name for target.
@@ -312,7 +312,7 @@ clean: src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir/clea
 src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/all:
 	$(MAKE) -f src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/build.make src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/depend
 	$(MAKE) -f src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/build.make src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  6
 	@echo "Built target simpleContactNonblockServer"
 .PHONY : src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/all
 
@@ -322,9 +322,9 @@ all: src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/all
 
 # Build rule for subdir invocation for target.
 src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir/rule
 
 # Convenience name for target.
@@ -364,7 +364,7 @@ src/simplecontactasync/preinstall:
 src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/all:
 	$(MAKE) -f src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/build.make src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/depend
 	$(MAKE) -f src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/build.make src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  2
 	@echo "Built target simpleContactAsyncClient"
 .PHONY : src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/all
 
@@ -374,9 +374,9 @@ all: src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/all
 
 # Build rule for subdir invocation for target.
 src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/rule
 
 # Convenience name for target.
@@ -399,7 +399,7 @@ clean: src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir/clean
 src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/all:
 	$(MAKE) -f src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/build.make src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/depend
 	$(MAKE) -f src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/build.make src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/SocketDemos/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/github/demos/SocketDemos/build/CMakeFiles  3
 	@echo "Built target simpleContactAsyncServer"
 .PHONY : src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/all
 
@@ -409,9 +409,9 @@ all: src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/all
 
 # Build rule for subdir invocation for target.
 src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir/rule
 
 # Convenience name for target.

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/SocketDemos
+CMAKE_SOURCE_DIR = /root/github/demos/SocketDemos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/SocketDemos/build
+CMAKE_BINARY_DIR = /root/github/demos/SocketDemos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/SocketDemos/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles /root/SocketDemos/build/src/simple/CMakeFiles/progress.marks
-	cd /root/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/SocketDemos/build/CMakeFiles 0
+	cd /root/github/demos/SocketDemos/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles /root/github/demos/SocketDemos/build/src/simple/CMakeFiles/progress.marks
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/github/demos/SocketDemos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/clean
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/preinstall
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/preinstall
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/SocketDemos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/github/demos/SocketDemos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/simple/CMakeFiles/simpleClient.dir/rule:
-	cd /root/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/CMakeFiles/simpleClient.dir/rule
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/CMakeFiles/simpleClient.dir/rule
 .PHONY : src/simple/CMakeFiles/simpleClient.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ simpleClient: src/simple/CMakeFiles/simpleClient.dir/rule
 
 # fast build rule for target.
 simpleClient/fast:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/build
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/build
 .PHONY : simpleClient/fast
 
 # Convenience name for target.
 src/simple/CMakeFiles/simpleServer.dir/rule:
-	cd /root/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/CMakeFiles/simpleServer.dir/rule
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f CMakeFiles/Makefile2 src/simple/CMakeFiles/simpleServer.dir/rule
 .PHONY : src/simple/CMakeFiles/simpleServer.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ simpleServer: src/simple/CMakeFiles/simpleServer.dir/rule
 
 # fast build rule for target.
 simpleServer/fast:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/build
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/build
 .PHONY : simpleServer/fast
 
 simpleClient.o: simpleClient.c.o
@@ -134,7 +134,7 @@ simpleClient.o: simpleClient.c.o
 
 # target to build an object file
 simpleClient.c.o:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.o
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.o
 .PHONY : simpleClient.c.o
 
 simpleClient.i: simpleClient.c.i
@@ -142,7 +142,7 @@ simpleClient.i: simpleClient.c.i
 
 # target to preprocess a source file
 simpleClient.c.i:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.i
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.i
 .PHONY : simpleClient.c.i
 
 simpleClient.s: simpleClient.c.s
@@ -150,7 +150,7 @@ simpleClient.s: simpleClient.c.s
 
 # target to generate assembly for a file
 simpleClient.c.s:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.s
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleClient.dir/build.make src/simple/CMakeFiles/simpleClient.dir/simpleClient.c.s
 .PHONY : simpleClient.c.s
 
 simpleServer.o: simpleServer.c.o
@@ -158,7 +158,7 @@ simpleServer.o: simpleServer.c.o
 
 # target to build an object file
 simpleServer.c.o:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/simpleServer.c.o
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/simpleServer.c.o
 .PHONY : simpleServer.c.o
 
 simpleServer.i: simpleServer.c.i
@@ -166,7 +166,7 @@ simpleServer.i: simpleServer.c.i
 
 # target to preprocess a source file
 simpleServer.c.i:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/simpleServer.c.i
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/simpleServer.c.i
 .PHONY : simpleServer.c.i
 
 simpleServer.s: simpleServer.c.s
@@ -174,7 +174,7 @@ simpleServer.s: simpleServer.c.s
 
 # target to generate assembly for a file
 simpleServer.c.s:
-	cd /root/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/simpleServer.c.s
+	cd /root/github/demos/SocketDemos/build && $(MAKE) -f src/simple/CMakeFiles/simpleServer.dir/build.make src/simple/CMakeFiles/simpleServer.dir/simpleServer.c.s
 .PHONY : simpleServer.c.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/SocketDemos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/github/demos/SocketDemos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /root/SocketDemos/src
+# Install script for directory: /root/github/demos/SocketDemos/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/root/SocketDemos/build/src/simple/cmake_install.cmake")
-  INCLUDE("/root/SocketDemos/build/src/simplecontact/cmake_install.cmake")
-  INCLUDE("/root/SocketDemos/build/src/simplecontactnonblock/cmake_install.cmake")
-  INCLUDE("/root/SocketDemos/build/src/simplecontactasync/cmake_install.cmake")
+  INCLUDE("/root/github/demos/SocketDemos/build/src/simple/cmake_install.cmake")
+  INCLUDE("/root/github/demos/SocketDemos/build/src/simplecontact/cmake_install.cmake")
+  INCLUDE("/root/github/demos/SocketDemos/build/src/simplecontactnonblock/cmake_install.cmake")
+  INCLUDE("/root/github/demos/SocketDemos/build/src/simplecontactasync/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
