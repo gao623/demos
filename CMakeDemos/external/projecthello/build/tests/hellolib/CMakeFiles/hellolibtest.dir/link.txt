@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/hellolibtest.dir/main.c.o  -o ../../bin/hellolibtest -rdynamic 
