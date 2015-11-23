@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall    CMakeFiles/simpleContactNonblockClient.dir/simpleClient.c.o  -o ../../../bin/simplecontactnonblock/simpleContactNonblockClient -rdynamic 
