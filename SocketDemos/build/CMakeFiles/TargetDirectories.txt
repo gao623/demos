@@ -1,8 +1,0 @@
-/root/github/demos/SocketDemos/build/src/simple/CMakeFiles/simpleClient.dir
-/root/github/demos/SocketDemos/build/src/simplecontactasync/CMakeFiles/simpleContactAsyncClient.dir
-/root/github/demos/SocketDemos/build/src/simplecontactasync/CMakeFiles/simpleContactAsyncServer.dir
-/root/github/demos/SocketDemos/build/src/simplecontact/CMakeFiles/simpleContactClient.dir
-/root/github/demos/SocketDemos/build/src/simplecontactnonblock/CMakeFiles/simpleContactNonblockClient.dir
-/root/github/demos/SocketDemos/build/src/simplecontactnonblock/CMakeFiles/simpleContactNonblockServer.dir
-/root/github/demos/SocketDemos/build/src/simplecontact/CMakeFiles/simpleContactServer.dir
-/root/github/demos/SocketDemos/build/src/simple/CMakeFiles/simpleServer.dir

@@ -1,1 +1,0 @@
-/usr/bin/cc  -g -Wall    CMakeFiles/simpleContactAsyncServer.dir/simpleServer.c.o  -o ../../../bin/simplecontactasync/simpleContactAsyncServer -rdynamic 
