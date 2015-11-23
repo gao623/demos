@@ -1,4 +1,0 @@
-/root/CMakeDemos/external/projecthello/build/src/hellobin/CMakeFiles/hellobin.dir
-/root/CMakeDemos/external/projecthello/build/tests/hellobin/CMakeFiles/hellobintest.dir
-/root/CMakeDemos/external/projecthello/build/src/hellolib/CMakeFiles/hellolib.dir
-/root/CMakeDemos/external/projecthello/build/tests/hellolib/CMakeFiles/hellolibtest.dir
